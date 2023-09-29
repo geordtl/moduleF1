@@ -5,9 +5,6 @@ export default {
         federation({
             name: 'remote-app',
             filename: 'remoteEntry.js',
-            remotes: {
-                remote_app: "http://localhost:3000/remoteEntry.js",
-            },
             // Modules to expose
             exposes: {
                 './Button': './components/Button.vue',
